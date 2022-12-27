@@ -15,7 +15,7 @@ public class TodoController {
     private TodosMapper todosMapper;
     @GetMapping("/hello")
     public String hello(){
-        return "Hello, Todolist？";
+        return "Hello, TodoApp!";
     }
     @GetMapping("/getAllTodos")
     public List getAllTodos(){
